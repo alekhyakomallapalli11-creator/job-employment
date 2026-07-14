@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Employment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/" alt="" style="height: 50px;">
+        <h1>Job Employment Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobdetails.html">Job Details</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <button id="registerBtn">Register</button>
+            <div id="registrationForm" style="display: none;">
+                <input type="text" id="username" placeholder="Enter Username">
+                <input type="password" id="password" placeholder="Enter Password">
+                <input type="email" id="email" placeholder="Enter Email">
+                <button onclick="register()">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
